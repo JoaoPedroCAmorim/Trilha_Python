@@ -1,0 +1,2 @@
+Os códigos acima demonstram aplicação de váriveis, entrada de texto, números de ponto flutuante e contagem de caracteres. Os dois primeiros códigos Exemplo_1 e Exemplo_2 são utilizam funções báscas mais que podem ser muito utilizadas, misturando a contagem(len) e transformação em numeros com ponto. 
+No código KPI.py mostra o calculo do bonus, utilizado varáveis como nome, salario, bonus e valor do bonus. O resultado final é formulação de uma frase a partir das variáveis.
