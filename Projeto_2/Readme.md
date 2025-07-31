@@ -1,0 +1,1 @@
+Codificação com o mesmo intuito do Projeto 1 porém com o IF, ELIF e ValueError para tratar possíveis erros do usuário com validações.
