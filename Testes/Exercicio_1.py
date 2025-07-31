@@ -27,7 +27,13 @@ Numero_2 = float(input("Insira outro numero = "))
 Soma = Numero_1 + Numero_2
 print("O resultado é igual a",Soma)"""
 
-"""Cálculo da média de flutuantes
+"""Cálculo da média com números flutuantes
 Num_1 = float(input("Insira um numero = "))
 Num_2 = float(input("Insira outro numero = "))
-print(statistics.mean([Num_1,Num_2]))"""
+print("A média é",statistics.mean([Num_1,Num_2]))"""
+
+#Calculo da potência
+Num_1 = float(input("Insira um numero = "))
+Num_2 = float(input("Insira outro numero = "))
+result = pow(Num_1,Num_2)
+print("O resultado da potência é", result)
