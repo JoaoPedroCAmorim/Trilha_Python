@@ -32,8 +32,36 @@ Num_1 = float(input("Insira um numero = "))
 Num_2 = float(input("Insira outro numero = "))
 print("A média é",statistics.mean([Num_1,Num_2]))"""
 
-#Calculo da potência
+"""Calculo da potência
 Num_1 = float(input("Insira um numero = "))
 Num_2 = float(input("Insira outro numero = "))
 result = pow(Num_1,Num_2)
-print("O resultado da potência é", result)
+print("O resultado da potência é", result)"""
+
+"""Usuário irá inserir o nome e depois será convertido para letra maiuscula
+Nome= input("Digite seu nome: ")
+Nome_maiusculo= Nome.upper()
+print("O nome em letra maiuscula é", Nome_maiusculo)"""
+
+"""Usuário irá inserir o nome e depois será convertido para letra minuscula
+Nome= input("Digite seu nome: ")
+Nome_minusculo= Nome.lower()
+print("O nome em letra maiuscula é", Nome_minusculo)"""
+
+"""Como remover espaço no inicio e no final de uma frase"
+Frase= input("Insira uma frase:")
+Frase_sem_espaco = Frase.strip()
+print("Frase sem espaços no início e no final:",Frase_sem_espaco)"""
+
+"""Como separar Dia, mes e ano de uma Data
+data = input("Insira uma data no formato dd/mm/aaaa: ")
+dia, mes, ano = data.split("/")
+print("Dia:", dia)
+print("Mês:", mes)
+print("Ano:", ano)"""
+
+# Exemplo de entrada
+valor1 = True
+valor2 = False
+resultado_and = valor1 and valor2
+print("Resultado do AND lógico:", resultado_and)
