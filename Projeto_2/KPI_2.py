@@ -22,14 +22,18 @@ except ValueError as Erro:
 # Usuário deve informar o salário e o bonus - Float converte a entrada (input) para um numero com ponto
 try:
     salario_usuario = float(input("Informe seu salário: "))
-    bonus_usuario = float(input("Informe seu bonus: "))
     if salario_usuario < 0:
-        raise ValueError("Por favor, informar um valor válido!")
-    elif bonus_usuario < 0:
-        raise ValueError("Por favor, informar um valor válido!")
-except ValueError as e:
-    print(e)
-    exit()
+        print("Por favor, digite um valor positivo para o salário.")
+except ValueError:
+        ("Por favor, informar um valor válido!")
+        exit()
+try:
+    bonus_usuario = float(input("Informe seu bonus: "))
+    if bonus_usuario < 0:
+        print("Por favor, digite um valor positivo para o bônus.")
+except ValueError:
+    print("Entrada inválida para o bônus. Por favor, digite um número.")
+    exit() 
 # Calculo do bonus final
 valor_bonus = constante_bonus + salario_usuario * bonus_usuario
 
