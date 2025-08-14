@@ -48,17 +48,17 @@ Nome= input("Digite seu nome: ")
 Nome_minusculo= Nome.lower()
 print("O nome em letra maiuscula é", Nome_minusculo)"""
 
-"""Como remover espaço no inicio e no final de uma frase"
+# Como remover espaço no inicio e no final de uma frase"
 Frase= input("Insira uma frase:")
 Frase_sem_espaco = Frase.strip()
-print("Frase sem espaços no início e no final:",Frase_sem_espaco)"""
+print("Frase sem espaços no início e no final:",Frase_sem_espaco)
 
-"""Como separar Dia, mes e ano de uma Data
+#Como separar Dia, mes e ano de uma Data
 data = input("Insira uma data no formato dd/mm/aaaa: ")
 dia, mes, ano = data.split("/")
 print("Dia:", dia)
 print("Mês:", mes)
-print("Ano:", ano)"""
+print("Ano:", ano)
 
 # Exemplo de entrada
 valor1 = True
