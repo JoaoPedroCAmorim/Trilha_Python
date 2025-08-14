@@ -1,5 +1,5 @@
 # IF:
-"""try:
+try:
     QNTD: float = float(input("Informe a quantidade de vendas: "))
     Preco: float = float(input("Informe o preço da venda: "))
     if QNTD > 0 and Preco > 0:
@@ -10,9 +10,9 @@ except ValueError:
     print("Erro: Entrada inválida. Deve ser inserido números")
     exit()
 Valor_venda: float = QNTD * Preco
-print("O valor vendido é", Valor_venda)"""
+print("O valor vendido é", Valor_venda)
 
-"""try:
+try:
     temperatura: float = float(input("Informe a temperatura atual: "))
     if temperatura < 18:
         print("A temperatura atual está baixa")
@@ -22,22 +22,24 @@ print("O valor vendido é", Valor_venda)"""
         print("A temperatura é atual está alta")
 except ValueError:
     print("Erro: Entrada inválida. Deve ser inserido números")
-    exit()"""
+    exit()
 
-"""log = {'timestamp': '2021-06-23 10:00:00', 'level': 'ERROR', 'message': 'Falha na conexão'}
+log = {'timestamp': '2021-06-23 10:00:00', 'level': 'ERROR', 'message': 'Falha na conexão'}
 if log['level'] == 'ERROR':
-    print(log['message'])"""
+    print(log['message'])
 
-"""idade: int = int(input("Informe a sua idade: "))
+idade: int = int(input("Informe a sua idade: "))
 email: str = input("Informe seu e-mail: ")
 if not 18 <= idade <= 65:
     print("Idade fora do intervalo permitido")
 elif "@" not in email or "." not in email:
     print("Email inválido")
 else:
-    print("Dados de usuário válidos")"""
+    print("Dados de usuário válidos")
+
 # FOR
-"""texto = input("Por favor, informe a palavra chave: ")
+
+texto = input("Por favor, informe a palavra chave: ")
 palavras = texto.split()
 contagem_palavras = {}
 for palavra in palavras:
@@ -45,21 +47,21 @@ for palavra in palavras:
         contagem_palavras[palavra] += 1
     else:
         contagem_palavras[palavra] = 1
-    print(contagem_palavras)"""
+    print(contagem_palavras)
 
-"""numeros = [10, 20, 30, 40, 50]
+numeros = [10, 20, 30, 40, 50]
 minimo = min(numeros)
 maximo = max(numeros)
 normalizados = [(x - minimo) / (maximo - minimo) for x in numeros]
-print(normalizados)"""
+print(normalizados)
 
-"""usuarios = [
+usuarios = [
     {"nome": "Alice", "email": "alice@example.com"},
     {"nome": "Bob", "email": ""},
     {"nome": "Carol", "email": "carol@example.com"}
 ]
 usuarios_validos = [usuario for usuario in usuarios if usuario["email"]]
-print(usuarios_validos)"""
+print(usuarios_validos)
 
 vendas = [
     {"categoria": "eletrônicos", "valor": 1200},
@@ -76,3 +78,4 @@ for venda in vendas:
     else:
         total_por_categoria[categoria] = valor
 print(total_por_categoria)
+
